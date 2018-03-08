@@ -447,7 +447,9 @@ body {
     top: 4rem;
     left: 4rem; }
   .header__logo {
-    height: 3.5rem; }
+    height: 4rem; }
+    .header__logo polyline {
+      stroke: #f7f7f7; }
   .header__text-box {
     position: absolute;
     top: 40%;

@@ -112,7 +112,7 @@ body {
         letter-spacing: .5rem; } }
 
 .heading-secondary {
-  font-size: 3.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
@@ -705,17 +705,8 @@ body {
     color: #5582c5;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     transform: rotate(5deg) scale(1.3); }
-  .footer__icon:link, .footer__icon:visited {
-    color: #f7f7f7;
-    background-color: #333;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-    transition: all .2s; }
-  .footer__icon:hover, .footer__icon:active {
-    color: #5582c5;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
-    transform: rotate(5deg) scale(1.3); }
+  .footer svg {
+    fill: #f7f7f7; }
   .footer__copyright {
     border-top: 1px solid #777;
     padding-top: 2rem;

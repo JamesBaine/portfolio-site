@@ -71,6 +71,10 @@ body {
     }
 }
 
+.feature-head {
+    background-image: linear-gradient(to right, $color-grey-light-1, $color-grey-light-2);
+}
+
 .heading-tertiary {
     font-size: $default-font-size;
     font-weight: 700;

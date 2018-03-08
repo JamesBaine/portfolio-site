@@ -131,6 +131,9 @@ body {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.feature-head {
+  background-image: linear-gradient(to right, #f7f7f7, #eee); }
+
 .heading-tertiary {
   font-size: 1.6rem;
   font-weight: 700;
@@ -247,6 +250,25 @@ body {
   transform: translateY(-2px); }
 
 .btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0); }
+
+.btn-text--grey:link, .btn-text--grey:visited {
+  font-size: 1.6rem;
+  color: #f7f7f7;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #f7f7f7;
+  padding: 3px;
+  transition: all .2s; }
+
+.btn-text--grey:hover {
+  background-color: #f7f7f7;
+  color: #5582c5;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.btn-text--grey:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
 

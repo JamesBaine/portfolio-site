@@ -9,6 +9,8 @@
 }
 
 .section-features {
+    position: relative;
+    z-index: 10;
     padding: 20rem 0;
     background-image: linear-gradient(
         to right bottom,
@@ -40,30 +42,26 @@
 }
 
 .section-contact {
+    position: relative;
     padding: 15rem 0;
-
+    margin-top: -20vh;
+    background-color: rgba($color-grey-light-1, .7);
     @include respond(tab-port) {
         padding: 10rem 0;
     }
 }
 
 .contact {
-    background-image: linear-gradient(105deg, 
-    rgba($color-primary, .9) 0%,
-    rgba($color-primary, .9) 50%,
-    transparent 50%), 
-    url(../img/nat-10.jpg);
-    background-size: 100%;
+    width: 80%;
+    margin: auto;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+    margin-top: 20vh;
+    background-color: rgba($color-white, .6);
+    transform: skewX(-12deg);
 
     @include respond(tab-land) {
-        background-image: linear-gradient(105deg, 
-        rgba($color-white, .9) 0%,
-        rgba($color-white, .9) 65%,
-        transparent 65%), 
-        url(../img/nat-10.jpg);
-        background-size: cover;
+        
     }
 
     @include respond(tab-port) {
@@ -74,7 +72,7 @@
     }
 
     &__form {
-        width: 50%;
+        width: 100%;
         padding: 6rem;
 
         @include respond(tab-land) {

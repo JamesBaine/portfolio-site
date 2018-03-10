@@ -167,6 +167,20 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .15;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -596,6 +610,8 @@ body {
       padding: 20rem 0; } }
 
 .section-features {
+  position: relative;
+  z-index: 10;
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom, rgba(111, 147, 213, 0.7), rgba(40, 96, 180, 0.7)), url(../img/secondary.jpg);
   background-size: cover;
@@ -616,25 +632,27 @@ body {
       padding: 20rem 0 10rem 0; } }
 
 .section-contact {
-  padding: 15rem 0; }
+  position: relative;
+  padding: 15rem 0;
+  margin-top: -20vh;
+  background-color: rgba(247, 247, 247, 0.7); }
   @media only screen and (max-width: 56.25em) {
     .section-contact {
       padding: 10rem 0; } }
 
 .contact {
-  background-image: linear-gradient(105deg, rgba(85, 130, 197, 0.9) 0%, rgba(85, 130, 197, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
-  background-size: 100%;
+  width: 80%;
+  margin: auto;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
-  @media only screen and (max-width: 75em) {
-    .contact {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
-      background-size: cover; } }
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  margin-top: 20vh;
+  background-color: rgba(255, 255, 255, 0.6);
+  transform: skewX(-12deg); }
   @media only screen and (max-width: 56.25em) {
     .contact {
       background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg); } }
   .contact__form {
-    width: 50%;
+    width: 100%;
     padding: 6rem; }
     @media only screen and (max-width: 75em) {
       .contact__form {

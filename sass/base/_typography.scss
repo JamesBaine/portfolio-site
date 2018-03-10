@@ -69,11 +69,13 @@ body {
         transform: skewY(2deg) skewX(15deg) scale(1.1);
         text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
     }
+       
+    &--white {
+        background-image: linear-gradient(to right, $color-grey-light-1, $color-grey-light-2);
+    }
 }
 
-.feature-head {
-    background-image: linear-gradient(to right, $color-grey-light-1, $color-grey-light-2);
-}
+
 
 .heading-tertiary {
     font-size: $default-font-size;

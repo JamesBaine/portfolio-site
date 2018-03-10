@@ -329,6 +329,8 @@ body {
     @media only screen and (max-width: 56.25em) {
       .feature-box__icon {
         margin-bottom: 0; } }
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
 
 .footer {
   background-color: #333;

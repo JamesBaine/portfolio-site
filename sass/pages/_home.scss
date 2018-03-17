@@ -58,17 +58,15 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
     margin-top: 20vh;
     background-color: rgba($color-primary, .8);
-    transform: skewX(-12deg);
+    transform: skewX(-5deg);
 
     @include respond(tab-land) {
         
     }
 
     @include respond(tab-port) {
-        background-image: linear-gradient(to right, 
-        rgba($color-white, .9) 0%,
-        rgba($color-white, .9) 100%), 
-        url(../img/nat-10.jpg);
+        width: 100%;
+        transform: skewX(0deg);
     }
 
     &__form {

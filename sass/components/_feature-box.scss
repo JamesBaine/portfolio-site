@@ -33,6 +33,17 @@
         }
     }
 
+    &__img {
+        margin-bottom: 2rem;
+        height: 6rem;
+        // &--fork-q {
+        //     width: 16rem;
+        // }
+        // &--skrilla {
+        //     width: 10rem;
+        // }
+    }
+
     &:hover {
         transform: translateY(-1.5rem) scale(1.03);
     }

@@ -143,6 +143,9 @@ body {
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
+.footer__copyright {
+  font-size: 1rem; }
+
 .u-center-text {
   text-align: center !important; }
 

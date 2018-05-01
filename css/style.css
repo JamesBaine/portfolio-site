@@ -352,8 +352,6 @@ body {
   .feature-box__img {
     margin-bottom: 2rem;
     height: 6rem; }
-    .feature-box__img--skrilla {
-      height: 6.5rem; }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 

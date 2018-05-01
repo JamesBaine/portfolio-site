@@ -36,12 +36,9 @@
     &__img {
         margin-bottom: 2rem;
         height: 6rem;
-        // &--fork-q {
-        //     width: 16rem;
-        // }
-        // &--skrilla {
-        //     width: 10rem;
-        // }
+        &--skrilla {
+            height: 6.5rem;
+        }
     }
 
     &:hover {
